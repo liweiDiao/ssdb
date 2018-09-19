@@ -4,6 +4,7 @@ java实现连接ssdb demo
 centos安装ssdb中碰到了错误，以下是解决办法。
 
 1、centos安装ssdb，依次执行以下命令：
+
     1.1: wget --no-check-certificate https://github.com/ideawu/ssdb/archive/master.zip
     1.2: unzip master
     1.3: cd ssdb-master
