@@ -1,7 +1,6 @@
-# ssdbDemo
-java实现连接ssdb demo
+# ssdbDemo   java实现连接ssdb demo    
 
-centos安装ssdb中碰到了错误，以下是解决办法。
+# centos安装ssdb中碰到了错误，以下是解决办法。    
 
 1、centos安装ssdb，依次执行以下命令：
 
