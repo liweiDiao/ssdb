@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- monitorInterval:指定log4j自动重新配置的监测间隔时间 -->
+<Configuration status="INFO" monitorInterval="10">
+    <Properties>
+        <Property name="layoutpattern">%d %5p %30.30c{1.} : %m %ex%n</Property>
+    </Properties>
+    <Appenders>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="${layoutpattern}"/>
+        </Console>
+
+        <RollingRandomAccessFile name="Error"
+                                 fileName="/data/appLog/logs/ssdbDemo.ERROR"
+                                 filePattern="/data/appLog/logs/ssdbDemo.ERROR.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${layoutpattern}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="/data/appLog/logs/" maxDepth="1">
+                    <IfFileName glob="ssdbDemo.ERROR.*.log" />
+                    <IfLastModified age="10d" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Warn"
+                                 fileName="/data/appLog/logs/ssdbDemo.WARN"
+                                 filePattern="/data/appLog/logs/ssdbDemo.WARN.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${layoutpattern}"/>
+            <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="/data/appLog/logs/" maxDepth="1">
+                    <IfFileName glob="ssdbDemo.WARN.*.log" />
+                    <IfLastModified age="10d" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+
+        <RollingRandomAccessFile name="Info"
+                                 immediateFlush="false"
+                                 append="true"
+                                 fileName="/data/appLog/logs/ssdbDemo.INFO"
+                                 filePattern="/data/appLog/logs/ssdbDemo.INFO.%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${layoutpattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy>
+                <Delete basePath="/data/appLog/logs/" maxDepth="1">
+                    <IfFileName glob="ssdbDemo.INFO.*.log" />
+                    <IfLastModified age="10d" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <asyncRoot level="INFO" additivity="false">
+            <AppenderRef ref="Error"/>
+            <AppenderRef ref="Warn"/>
+            <AppenderRef ref="Info"/>
+            <AppenderRef ref="STDOUT"/>
+        </asyncRoot>
+    </Loggers>
+</Configuration>
