@@ -51,7 +51,7 @@
     
     启动和停止等操作可参考官网说明。
     
-## 2、centos安装SSDBAdmin：
+## 2、centos安装SSDBAdmin(SSDB数据库的可视化界面管理工具)：
 
     
 
