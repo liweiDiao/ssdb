@@ -63,27 +63,35 @@
          make    
          make install    
    2.7： 使用python3 -V 检查安装是否正确，如下图：   
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/1.png)   
   
    2.8： 安装Flask     
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/6.png)    
   
    2.9： 下载SSDBAdmin    
+   
    https://github.com/jhao104/SSDBAdmin    
    
    2.10： 下载SSDBAdmin后解压，然后进入配置文件修改配置    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/3.png)    
    
    修改配置，将host和port修改成正确值    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/4.png)    
    
    2.11： 安装依赖包: pip3 install -r requirements.txt    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/7.png)    
    
    2.12： 启动: python3 run.py    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/8.png)    
    
    2.13： 访问:http://127.0.0.1:5000/ssdbadmin    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/9.png)     
    
    
