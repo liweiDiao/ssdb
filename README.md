@@ -51,7 +51,22 @@
     
     启动和停止等操作可参考官网说明。
     
-#### 2、centos安装SSDBAdmin(SSDB数据库的可视化界面管理工具)： 待完善
+#### 2、centos安装SSDBAdmin(SSDB数据库的可视化界面管理工具)：github: https://github.com/jhao104/SSDBAdmin    
+    2.1：提供SSDB数据的hash/zset/kv/queue等数据结构的增删改查等功能。需要依赖Python 3.x和Flask    
+    2.2：先安装好Python 3.x，部分Linux默认自带Python 2，不要删除，直接安装Python 3， 使用Python3 命令来使用Python3.x    
+    2.3：下载Python: wget https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tgz    
+    2.4：然后新建一个目录：mkdir /usr/local/python3    
+    2.5：Python解压到该目录：cd /usr/local/python3    
+         tar zxvf /root/Python-3.6.2.tgz    
+    2.6：进行配置、编译和安装：    
+         cd Python-3.6.2    
+         ./configure --prefix=/usr/local/python3    
+         make    
+         make install    
+    2.7： 使用python3 -V 检查安装是否正确，如下图：    
+    
+    
+    
 
     
 
