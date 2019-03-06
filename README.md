@@ -1,7 +1,7 @@
 
-# centos安装ssdb中碰到了官网没有给出的错误，以下是解决办法。    
+## centos安装ssdb中碰到了官网没有给出的错误，以下是解决办法。    
 
-## 1、centos安装ssdb，依次执行以下命令：
+#### 1、centos安装ssdb，依次执行以下命令：
 
      1.1: wget --no-check-certificate https://github.com/ideawu/ssdb/archive/master.zip
      1.2: unzip master
@@ -51,7 +51,7 @@
     
     启动和停止等操作可参考官网说明。
     
-## 2、centos安装SSDBAdmin(SSDB数据库的可视化界面管理工具)：
+#### 2、centos安装SSDBAdmin(SSDB数据库的可视化界面管理工具)： 待完善
 
     
 
