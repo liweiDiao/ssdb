@@ -66,9 +66,11 @@
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/1.png)   
   
-   2.8： 安装Flask     
+   2.8： 安装Flask，可能会出现如下错误，可能是你机器访问不上 https://pypi.python.org/simple/click ，可以使用curl 测一下
    
-   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/6.png)    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/2.png)    
+   
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/12.png)    
   
    2.9： 下载SSDBAdmin    
    
