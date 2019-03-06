@@ -78,7 +78,13 @@
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/4.png)    
    
    2.11： 安装依赖包: pip3 install -r requirements.txt    
-   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/5.png)    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/7.png)    
+   
+   2.12： 启动: python3 run.py    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/8.png)    
+   
+   2.13： 访问:http://127.0.0.1:5000/ssdbadmin    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/9.png)     
    
    
     
