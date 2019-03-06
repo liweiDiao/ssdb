@@ -70,7 +70,15 @@
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/2.png)    
    
-   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/12.png)    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/12.png)   
+   
+   2.9： 修改一下DNS配置，加上如图：nameserver 114.114.114.114  nameserver 8.8.8.8        
+   vim /etc/resolv.conf     
+   
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/11.png)     
+   
+   然后重新安装Flask：    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/13.png)     
   
    2.9： 下载SSDBAdmin    
    
