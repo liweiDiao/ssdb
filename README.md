@@ -74,6 +74,12 @@
    2.10： 下载SSDBAdmin后解压，然后进入配置文件修改配置    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/3.png)    
    
+   修改配置，将host和port修改成正确值    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/4.png)    
+   
+   2.11： 安装依赖包: pip3 install -r requirements.txt    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/5.png)    
+   
    
     
     
