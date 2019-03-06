@@ -105,6 +105,8 @@
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/18.png)     
    
+   hash结构的数据：    
+   
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/19.png)    
          
 
