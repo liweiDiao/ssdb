@@ -101,6 +101,8 @@
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/15.png)    
    
+   ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/21.png)    
+   
    2.13： 访问:http://127.0.0.1:5000/ssdbadmin    
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/18.png)     
