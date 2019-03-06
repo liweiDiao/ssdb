@@ -96,10 +96,12 @@
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/14.png)    
    
-   2.12： 启动: python3 run.py ，让python服务在后台运行请使用：  nohup python3 run.py &     
-   要使用exit退出shell    
+   2.12： 启动: python3 run.py 
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/15.png)    
+   
+   让python服务在后台运行请使用：  nohup python3 run.py &     
+   要使用exit退出shell    
    
    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/21.png)    
    
