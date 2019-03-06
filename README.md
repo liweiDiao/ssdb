@@ -63,8 +63,8 @@
          ./configure --prefix=/usr/local/python3    
          make    
          make install    
-    2.7： 使用python3 -V 检查安装是否正确，如下图：    
-    ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/1.png)    
+    2.7： 使用python3 -V 检查安装是否正确，如下图：   
+  ![Image text](https://github.com/liweiDiao/ssdbDemo/blob/master/images/1.png)  
     
     
     
